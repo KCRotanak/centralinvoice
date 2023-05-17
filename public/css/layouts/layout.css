@@ -1,0 +1,79 @@
+
+nav *{
+    color: white !important;
+}
+
+.navbar{
+    background-color: #0B525F;
+    position: sticky;
+    z-index: 999;  
+    width: 100%;
+    top: 0;
+}
+/* menu nav */
+.menu_nav .active{  
+    text-decoration: underline rgb(255, 255, 255);
+    text-underline-offset: 7px;
+    text-decoration-thickness: 10%;
+}
+.home_nav, .contact_nav {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+.home_nav:hover, .contact_nav:hover {
+    color: rgb(175, 175, 175) !important;
+    text-decoration: underline rgb(175, 175, 175) !important;
+    text-underline-offset: 7px;
+    transform: translateY(4px);
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    text-decoration-thickness: 10%;     
+    
+}
+.register_nav, .login_nav {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+.register_nav:hover,.login_nav:hover {
+    color: rgb(175, 175, 175) !important;
+    text-decoration: underline rgb(175, 175, 175) !important;
+    text-underline-offset: 7px;
+    transform: translateY(4px);
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    text-decoration-thickness: 10%; 
+}
+/* .page-wrapper {
+    height: auto; 
+} */
+footer {
+    background-color: #0B525F;
+    color: white;
+    /* margin-top: 10px; */
+}
+.menulink ul {
+    list-style-type: none;    
+}
+.menulink a, .footer_link a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+
+}
+.menulink a:hover{
+    color: rgb(175, 175, 175);
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+.footer_link a:hover{
+    color: rgb(175, 175, 175);
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+
+  
+  
+ 
+
+

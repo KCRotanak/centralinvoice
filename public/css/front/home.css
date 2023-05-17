@@ -1,0 +1,191 @@
+.module {
+  min-height: 60vh;
+  height: 50%;
+  display: grid;
+  place-items: center;
+  color: #ffffff;
+  position: relative;
+}
+.module::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-shadow: 2px 2px 2px rgb(0,0,0,.2);
+  position: absolute;
+  background-image: url('/assets/images/homeinvoice.png');
+  background-size: cover;
+  filter: brightness(50%);
+}
+.module-inside {
+  position: relative;
+  animation-delay: 1s;
+}
+/* .module-inside {
+  position: relative;
+  vertical-align: middle;
+  z-index: 2;
+} */
+/* =======loading======= */
+.fadeout {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.loader {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    -webkit-transition: opacity 1s ease;
+    -moz-transition: opacity 1s ease;
+    -o-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+}
+
+.loader-content {
+    height: 100%;
+    display: block;
+    position: relative;
+}
+
+@media (max-width: 767px) {
+
+}
+
+
+.search {
+  position: relative;
+  vertical-align: middle;
+}
+.search input {
+  margin-top: -35px;
+  width: 50%;
+  height: 76px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 27px;
+  padding: 5px 5px 5px 47px;
+  /* color: #000; */
+  position: relative;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+}
+
+.search button {
+  margin-top: -30px;
+  position: absolute;
+  top: 5px;
+  right: 6px;
+  color: #000;
+  background: transparent;
+  font-size: 27px;
+  height: 65px;
+  line-height: 65px;
+  width: 68px;
+  padding: 0;
+  border-radius: 10px;
+  border: none;
+
+}
+/* about us */
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #0B525F;
+}
+
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #0B525F;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+.about .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  padding-left: 28px;
+  position: relative;
+}
+
+.about .content ul li+li {
+  margin-top: 10px;
+}
+
+.about .content ul i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: #47b2e4;
+  line-height: 1;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+.about .content .btn-learn-more {
+  /* font-family: "Poppins", sans-serif; */
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 4px;
+  transition: 0.3s;
+  line-height: 1;
+  color: #148da3;
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  border: 3px #148da3;
+  border-style:solid;
+  text-decoration: none;
+}
+
+.about .content .btn-learn-more:hover {
+  background: #148da3;
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,0 +1,14 @@
+.input-icon2 {
+    color: #0B525F;
+    font-size: 18px;
+    text-align: center;
+    /* line-height: 38px;
+    height: 35px;   
+    width: 40px; */
+    vertical-align: top;
+    cursor: pointer;
+    position: absolute;
+    opacity: 0.5;
+    right: 33px;
+
+}
